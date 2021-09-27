@@ -16,11 +16,16 @@ import Form from './components/Form';
 import Mounting from './components/Mounting';
 import FragmentParent from './components/FragmentParent';
 import HttpRequest from './components/HttpRequest';
-
+import Search from './components/Search';
+import Refs from './components/Refs';
+import HigherOrder_Comp1  from './components/HigherOrder_Comp1';
 
 function App() {
   return (
     <div className="App">
+      <HigherOrder_Comp1 name='Higher Order' />
+      <Refs/>
+      <Search />
       <HttpRequest />
       <FragmentParent />
       <Mounting />
